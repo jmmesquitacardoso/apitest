@@ -1,0 +1,9 @@
+package: spec
+additional-imports:
+  - package: github.com/jmmesquitacardoso/apitest/internal/models
+    alias: .
+generate:
+  echo-server: true
+  strict-server: true
+  embedded-spec: true
+output: spec/petstore-server.gen.go
